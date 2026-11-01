@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440">
+  <rect width="900" height="440" rx="24" fill="#101827"/>
+  <text x="450" y="48" fill="#f4f7fb" font-family="Arial,sans-serif" font-size="28" text-anchor="middle" font-weight="bold">Ghost's Room — OLED wiring</text>
+  <rect x="105" y="105" width="260" height="250" rx="18" fill="#1e3447" stroke="#72d6c2" stroke-width="3"/>
+  <text x="235" y="145" fill="#ffffff" font-family="Arial,sans-serif" font-size="22" text-anchor="middle">ESP32</text>
+  <text x="140" y="195" fill="#dce8f2" font-family="Arial,sans-serif" font-size="18">3V3</text>
+  <text x="140" y="245" fill="#dce8f2" font-family="Arial,sans-serif" font-size="18">GND</text>
+  <text x="140" y="295" fill="#dce8f2" font-family="Arial,sans-serif" font-size="18">GPIO 22</text>
+  <text x="140" y="335" fill="#dce8f2" font-family="Arial,sans-serif" font-size="18">GPIO 21</text>
+  <rect x="555" y="130" width="235" height="190" rx="14" fill="#243b4d" stroke="#72d6c2" stroke-width="3"/>
+  <rect x="580" y="155" width="185" height="105" rx="8" fill="#071018" stroke="#b2fff0" stroke-width="2"/>
+  <text x="672" y="205" fill="#b2fff0" font-family="Arial,sans-serif" font-size="22" text-anchor="middle">OLED</text>
+  <text x="672" y="235" fill="#b2fff0" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">128 × 64 I²C</text>
+  <text x="585" y="290" fill="#ffffff" font-family="Arial,sans-serif" font-size="16">VCC   GND   SCL   SDA</text>
+  <path d="M195 185 H440 V280 H585" fill="none" stroke="#f2c14e" stroke-width="5"/>
+  <path d="M195 235 H465 V300 H625" fill="none" stroke="#c5d0dc" stroke-width="5"/>
+  <path d="M230 285 H490 V300 H685" fill="none" stroke="#e87979" stroke-width="5"/>
+  <path d="M230 325 H515 V300 H740" fill="none" stroke="#67a9ff" stroke-width="5"/>
+  <text x="450" y="385" fill="#dce8f2" font-family="Arial,sans-serif" font-size="17" text-anchor="middle">3V3 → VCC  |  GND → GND  |  GPIO 22 → SCL  |  GPIO 21 → SDA</text>
+  <text x="450" y="414" fill="#9fb1c2" font-family="Arial,sans-serif" font-size="13" text-anchor="middle">Check the labels on your particular OLED module before connecting power.</text>
+</svg>
